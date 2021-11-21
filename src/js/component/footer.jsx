@@ -8,7 +8,7 @@ const Footer = () => {
 	return (
 		<React.Fragment>
 			<div className="m-0 w-100 footer-position">
-				<div className="row">
+				<div className="row m-0">
 					<div className="col-xs-12 col-sm-12 col-md-3 bg-first">
 						<img
 							src={logo}
@@ -48,7 +48,7 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-xs-12 col-sm-12 col-md-3 bg-first d-flex justify-content-end center-sm">
+					<div className="col-xs-12 col-sm-12 col-md-3 bg-first center-sm center-end">
 						<img
 							src={logo}
 							className="sizeLogo2 float-end align-self-end"
