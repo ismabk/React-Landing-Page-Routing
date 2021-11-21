@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+h1{
+    color: pink;
+}
+.img-derbi, .card{
+    width: 300px;
+}
+.center-content{
+    display: flex;
+    justify-content: center;
+}

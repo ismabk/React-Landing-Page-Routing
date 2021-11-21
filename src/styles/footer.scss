@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
 .ahover{
     color: white;
     text-decoration: none;
@@ -21,6 +23,10 @@ font-size: 1.5em;
 .sizeLogo1, .sizeLogo2{
     width: 200px;
 }
+.center-end{
+    display: flex;
+    justify-content: end;
+}
 @media (max-width: 767px) {
     .sizeLogo1 {
       display: none;
@@ -30,6 +36,5 @@ font-size: 1.5em;
     }
 }
 .footer-position {
-    position: fixed;
     bottom: 0;
 }
