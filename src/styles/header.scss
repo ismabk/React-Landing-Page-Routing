@@ -1,0 +1,27 @@
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+ .btn-secondary:hover {
+    background-color: #9EEA05 !important;
+    box-shadow: 5px 10px 18px #888888 !important;
+    color: grey !important;
+    font-weight:bold
+    
+}
+
+ .btn-secondary:active {
+
+    background-color: #D8D8D8 !important;
+    color: grey !important;
+}
+
+// .navbar-toggler{
+//     position:initial;
+// }
+// .icons {
+//     margin-left: ($spacer * .5) !important;
+//     margin-right: ($spacer * .5) !important;
+// }
