@@ -15,7 +15,7 @@ import bundesliga from "../../img/Bundesliga-Logo-2010-removebg-preview.png";
 
 const HeaderT = () => {
 	return (
-		<nav className="row navbar navbar-expand-sm navbar-light bg-light bg-first p-0 m-auto w-100">
+		<nav className="navbar navbar-expand-md navbar-light bg-light bg-first p-0 m-auto w-100">
 			<div className="container-fluid bg-first ">
 				<button
 					className="navbar-toggler justify-content-end"
@@ -27,7 +27,7 @@ const HeaderT = () => {
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="col-1">
+				<div className="">
 					<a href="#" className="navbar-brand">
 						<img
 							width="100px"
@@ -38,7 +38,7 @@ const HeaderT = () => {
 					</a>
 				</div>
 				<div
-					className="collapse navbar-collapse col-10 justify-content-center"
+					className="collapse navbar-collapse justify-content-center"
 					id="navbarTogglerDemo01">
 					<div className="d-flex justify-content-center ">
 						<div className=" text-center">
@@ -86,27 +86,9 @@ const HeaderT = () => {
 								<img src={bundesliga} alt="Bundesliga" />
 							</a>
 						</div>
-						{/* <div className="border-start border-secondary d-flex align-self-center text-center">
-							<a href="#">
-								<img
-									className="m-1 p-1"
-									src={champions}
-									alt="Champions"
-								/>
-							</a>
-						</div>
-						<div className="border-start border-secondary d-flex align-self-center text-center">
-							<a href="#">
-								<img
-									className="m-1 p-1"
-									src={uefa}
-									alt="UEFA Europa League"
-								/>
-							</a>
-						</div> */}
 					</div>
 				</div>
-				<div className="col-1 btn-group d-flex justify-content-end">
+				<div className="btn-group d-flex justify-content-end">
 					<button type="button" className="btn  rounded-4">
 						Login
 					</button>
