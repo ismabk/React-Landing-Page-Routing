@@ -15,8 +15,8 @@ import bundesliga from "../../img/Bundesliga-Logo-2010-removebg-preview.png";
 
 const HeaderT = () => {
 	return (
-		<nav className="navbar navbar-expand-sm navbar-light bg-light bg-first p-0">
-			<div className="container-fluid bg-first row">
+		<nav className="row navbar navbar-expand-sm navbar-light bg-light bg-first p-0 m-auto w-100">
+			<div className="container-fluid bg-first ">
 				<button
 					className="navbar-toggler justify-content-end"
 					type="button"
@@ -30,7 +30,6 @@ const HeaderT = () => {
 				<div className="col-1">
 					<a href="#" className="navbar-brand">
 						<img
-							className="mt-4 me-5"
 							width="100px"
 							height="75px"
 							src={logo}
@@ -39,7 +38,7 @@ const HeaderT = () => {
 					</a>
 				</div>
 				<div
-					className="collapse navbar-collapse ms-5 col-10"
+					className="collapse navbar-collapse col-10 justify-content-center"
 					id="navbarTogglerDemo01">
 					<div className="d-flex justify-content-center ">
 						<div className=" text-center">
@@ -47,74 +46,59 @@ const HeaderT = () => {
 								<img
 									width="75px"
 									height="75px"
-									className="img-fluid m-1 p-1"
 									src={laliga}
 									alt="laLiga"
 								/>
 							</a>
 						</div>
-						<div className="mt-1 border-start border-secondary text-center">
+						<div className="border-start border-secondary d-flex align-self-center text-center">
 							<a href="#">
 								<img
 									width="108px"
 									height="60px"
-									className="img-fluid m-1 mt-1 p-1"
 									src={laLigaSmart}
 									alt="ligaSmart"
 								/>
 							</a>
 						</div>
-						<div className="mt-1  border-start border-secondary text-center">
+						<div className=" border-start border-secondary d-flex align-self-center text-center">
 							<a href="#">
 								<img
 									width="84px"
 									height="35px"
-									className="img-fluid m-1 mt-3 p-1"
 									src={premier}
 									alt="Premier"
 								/>
 							</a>
 						</div>
-						<div className="mt-1 border-start border-secondary text-center">
+						<div className="border-start border-secondary d-flex align-self-center text-center">
 							<a href="#">
-								<img
-									className="img-fluid m-1 p-1"
-									src={serieA}
-									alt="serieA"
-								/>
+								<img src={serieA} alt="serieA" />
 							</a>
 						</div>
-						<div className="mt-1 border-start border-secondary text-center">
+						<div className="border-start border-secondary d-flex align-self-center text-center">
 							<a href="#">
-								<img
-									className="img-fluid m-1 p-1"
-									src={ligue1}
-									alt="ligue1"
-								/>
+								<img src={ligue1} alt="ligue1" />
 							</a>
 						</div>
-						<div className="mt-1 border-start border-secondary text-center">
+						<div className="border-start border-secondary d-flex align-self-center text-center">
 							<a href="#">
-								<img
-									className="img-fluid m-1 p-1"
-									src={bundesliga}
-									alt="Bundesliga"
-								/>
+								<img src={bundesliga} alt="Bundesliga" />
 							</a>
 						</div>
-						{/* <div className="mt-1 border-start border-secondary text-center">
+						{/* <div className="border-start border-secondary d-flex align-self-center text-center">
 							<a href="#">
 								<img
-									className="img-fluid m-1 p-1"
+									className="m-1 p-1"
 									src={champions}
 									alt="Champions"
 								/>
 							</a>
 						</div>
-						<div className="mt-1 border-start border-secondary text-center">
+						<div className="border-start border-secondary d-flex align-self-center text-center">
 							<a href="#">
 								<img
-									className="img-fluid m-1 p-1"
+									className="m-1 p-1"
 									src={uefa}
 									alt="UEFA Europa League"
 								/>
@@ -127,7 +111,7 @@ const HeaderT = () => {
 						Login
 					</button>
 
-					<button type="button" className="btn  rounded-4">
+					<button type="button" className="btn  rounded-4 buttonFlex">
 						Sign Up
 					</button>
 				</div>
