@@ -15,87 +15,123 @@ import bundesliga from "../../img/Bundesliga-Logo-2010-removebg-preview.png";
 
 const HeaderT = () => {
 	return (
-		<nav className="navbar navbar-expand-md navbar-light bg-light bg-first p-0 m-auto w-100">
-			<div className="container-fluid bg-first ">
+		<nav className="navbar navbar-expand-lg navbar-light bg-first">
+			<div className="container-fluid">
+				<a className="navbar-brand d-md-flex" href="#">
+					<div className="ms-2 ">
+						<img width="100px" height="75px" src={logo} alt="" />
+					</div>
+				</a>
 				<button
-					className="navbar-toggler justify-content-end"
+					className="navbar-toggler navbar-dark:"
 					type="button"
 					data-bs-toggle="collapse"
-					data-bs-target="#navbarTogglerDemo01"
-					aria-controls="navbarTogglerDemo01"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
 					aria-expanded="false"
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="">
-					<a href="#" className="navbar-brand">
-						<img
-							width="100px"
-							height="75px"
-							src={logo}
-							alt="Logo"
-						/>
-					</a>
-				</div>
 				<div
-					className="collapse navbar-collapse justify-content-center"
-					id="navbarTogglerDemo01">
-					<div className="d-flex justify-content-center ">
-						<div className=" text-center">
-							<a href="#">
-								<img
-									width="75px"
-									height="75px"
-									src={laliga}
-									alt="laLiga"
-								/>
+					className="collapse navbar-collapse justify-content-end"
+					id="navbarNavDropdown">
+					<ul className="navbar-nav d-flex align-items-center">
+						<li className="nav-item mx-1">
+							<a
+								className="nav-link active c-blanco ahover"
+								aria-current="page"
+								href="#">
+								<div className=" ">
+									<img
+										width="75px"
+										height="75px"
+										src={laliga}
+										alt=""
+									/>
+								</div>
 							</a>
-						</div>
-						<div className="border-start border-secondary d-flex align-self-center text-center">
-							<a href="#">
-								<img
-									width="108px"
-									height="60px"
-									src={laLigaSmart}
-									alt="ligaSmart"
-								/>
+						</li>
+						<li className="nav-item mx-1">
+							<a className="nav-link c-blanco ahover" href="#">
+								<div className=" ">
+									<img
+										width="108px"
+										height="60px"
+										src={laLigaSmart}
+										alt=""
+									/>
+								</div>
 							</a>
-						</div>
-						<div className=" border-start border-secondary d-flex align-self-center text-center">
-							<a href="#">
-								<img
-									width="84px"
-									height="35px"
-									src={premier}
-									alt="Premier"
-								/>
+						</li>
+						<li className="nav-item mx-1">
+							<a className="nav-link c-blanco ahover" href="#">
+								<div className=" ">
+									<img
+										width="84px"
+										height="35px"
+										src={premier}
+										alt=""
+									/>
+								</div>
 							</a>
-						</div>
-						<div className="border-start border-secondary d-flex align-self-center text-center">
-							<a href="#">
-								<img src={serieA} alt="serieA" />
+						</li>
+						<li className="nav-item mx-1">
+							<a className="nav-link c-blanco ahover" href="#">
+								<div className=" ">
+									<img src={serieA} alt="" />
+								</div>
 							</a>
-						</div>
-						<div className="border-start border-secondary d-flex align-self-center text-center">
-							<a href="#">
-								<img src={ligue1} alt="ligue1" />
+						</li>
+						<li className="nav-item mx-1">
+							<a className="nav-link c-blanco ahover" href="#">
+								<div className=" ">
+									<img src={ligue1} alt="" />
+								</div>
 							</a>
-						</div>
-						<div className="border-start border-secondary d-flex align-self-center text-center">
-							<a href="#">
-								<img src={bundesliga} alt="Bundesliga" />
+						</li>
+						<li className="nav-item mx-1">
+							<a className="nav-link c-blanco ahover" href="#">
+								<div className=" ">
+									<img src={bundesliga} alt="" />
+								</div>
 							</a>
-						</div>
-					</div>
-				</div>
-				<div className="btn-group d-flex justify-content-end">
-					<button type="button" className="btn  rounded-4">
-						Login
-					</button>
-
-					<button type="button" className="btn  rounded-4 buttonFlex">
-						Sign Up
-					</button>
+						</li>
+						<li className="nav-item mx-4">
+							<a className="nav-link c-blanco  aahover" href="#">
+								<i className="me-2 fas fa-globe-europe"></i>ESP
+							</a>
+						</li>
+						<li className="nav-item mx-4 dropdown">
+							<a
+								className="nav-link dropdown-toggle c-blanco aahover"
+								href="#"
+								id="navbarDropdownMenuLink"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Acceso
+							</a>
+							<ul
+								className="dropdown-menu"
+								aria-labelledby="navbarDropdownMenuLink">
+								<li>
+									<a className="dropdown-item" href="#">
+										Log in
+									</a>
+								</li>
+								<li>
+									<a className="dropdown-item" href="#">
+										Registrarse
+									</a>
+								</li>
+								<li>
+									<a className="dropdown-item" href="#">
+										Opciones
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</nav>
