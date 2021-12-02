@@ -9,7 +9,7 @@ import ps5 from "../../img/estacion-de-recarga-ps5.png";
 const Toasts = () => {
 	return (
 		<React.Fragment>
-			<div className="container my-4">
+			<div className="container containerToast my-4">
 				<div className="order row justify-content-center">
 					<div
 						className=" col-lg-4 bg-second p-0 toast mx-1 mt-1 mb-1 show"
