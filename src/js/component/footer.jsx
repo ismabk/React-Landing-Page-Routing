@@ -5,6 +5,21 @@ import logo from "../../img/logo-removebg-sin bordes.png";
 import "../../styles/footer.scss";
 
 const Footer = () => {
+	const months = new Array(
+		"Enero",
+		"Febrero",
+		"Marzo",
+		"Abril",
+		"Mayo",
+		"Junio",
+		"Julio",
+		"Agosto",
+		"Septiembre",
+		"Octubre",
+		"Noviembre",
+		"Diciembre"
+	);
+	const date = new Date();
 	return (
 		<React.Fragment>
 			<div className="m-0 w-100 footer-position">
@@ -20,9 +35,10 @@ const Footer = () => {
 						<div>
 							<div className="text-center">
 								<i className="fas fa-copyright"></i>
-								Noviembre 2021 FutVar Unidad Editorial
-								Información Deportiva S.L. Todos los derecechos
-								reservados
+								{months[date.getMonth()] +
+									date.getFullYear()}{" "}
+								FutVar Unidad Editorial Información Deportiva
+								S.L. Todos los derecechos reservados
 							</div>
 							<div className="text-center mt-2 px-2">
 								<a className="me-3 ahover" href="#">
