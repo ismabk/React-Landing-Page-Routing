@@ -4,7 +4,7 @@ import CardItem from "./CardItem.jsx";
 
 const Cards = () => {
 	return (
-		<React.Fragment>
+		<>
 			<div className="bg-second">
 				<div className="row w-75 m-auto">
 					<CardItem
@@ -63,7 +63,7 @@ const Cards = () => {
 						}></CardItem>
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 
