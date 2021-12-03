@@ -5,7 +5,7 @@ import "../../styles/CardItem.scss";
 
 const CardItem = props => {
 	return (
-		<React.Fragment>
+		<>
 			<div className=" col-sm-12 col-md-6 bg-second center-content p-3">
 				<div className="card">
 					<img src={props.imgCard} alt={props.altImg} />
@@ -17,7 +17,7 @@ const CardItem = props => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 
