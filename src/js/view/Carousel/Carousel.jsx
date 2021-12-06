@@ -1,12 +1,12 @@
 import React from "react";
 
-import CarouselItem from "./CarouselItem.jsx";
+import CarouselItem from "./components/CarouselItem.jsx";
 
-import "../../styles/Carousel.scss";
+import "./Carousel.scss";
 
-import messi from "../../img/messi2.jpg";
-import mbappe from "../../img/mbappe-2.jpg";
-import cr7 from "../../img/cr7.jpg";
+import messi from "../../../img/messi2.jpg";
+import mbappe from "../../../img/mbappe-2.jpg";
+import cr7 from "../../../img/ronaldo.jpg";
 
 const Carousel = () => {
 	return (
