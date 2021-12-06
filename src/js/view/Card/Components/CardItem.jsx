@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "../../styles/CardItem.scss";
+import "./CardItem.scss";
 
 const CardItem = props => {
 	return (

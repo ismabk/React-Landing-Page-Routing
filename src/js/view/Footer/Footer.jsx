@@ -1,8 +1,8 @@
 import React from "react";
 
-import logo from "../../img/logo-removebg-sin bordes.png";
+import logo from "../../../img/logo-removebg-sin bordes.png";
 
-import "../../styles/footer.scss";
+import "./Footer.scss";
 
 const Footer = () => {
 	const months = new Array(

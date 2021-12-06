@@ -1,17 +1,14 @@
 import React from "react";
 
-// Styles
-import "../../styles/header.scss";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo from "../../../img/logo-removebg-sin bordes.png";
+import laliga from "../../../img/laliga-santander-v-removebg-preview.png";
+import laLigaSmart from "../../../img/laliga-smartbank-logo-vector-removebg-preview.png";
+import premier from "../../../img/1200px-Logotip_Premier_League.svg-removebg-preview.png";
+import serieA from "../../../img/i-removebg-preview.png";
+import ligue1 from "../../../img/Ligue1_Uber_Eats_logo-removebg-preview.png";
+import bundesliga from "../../../img/Bundesliga-Logo-2010-removebg-preview.png";
 
-//Images
-import logo from "../../img/logo-removebg-sin bordes.png";
-import laliga from "../../img/laliga-santander-v-removebg-preview.png";
-import laLigaSmart from "../../img/laliga-smartbank-logo-vector-removebg-preview.png";
-import premier from "../../img/1200px-Logotip_Premier_League.svg-removebg-preview.png";
-import serieA from "../../img/i-removebg-preview.png";
-import ligue1 from "../../img/Ligue1_Uber_Eats_logo-removebg-preview.png";
-import bundesliga from "../../img/Bundesliga-Logo-2010-removebg-preview.png";
+import "./Header.scss";
 
 const HeaderT = () => {
 	return (

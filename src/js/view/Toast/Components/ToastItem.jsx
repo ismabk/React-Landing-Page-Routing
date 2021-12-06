@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "../../styles/toast.scss";
+import "../Toast.scss";
 
 const ToastsItem = props => {
 	return (

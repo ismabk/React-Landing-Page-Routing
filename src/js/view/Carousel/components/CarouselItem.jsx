@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../styles/Carousel.scss";
+import "../Carousel.scss";
 
 import PropTypes from "prop-types";
 

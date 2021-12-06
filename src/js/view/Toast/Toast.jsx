@@ -1,12 +1,12 @@
 import React from "react";
 
-import ToastsItem from "./ToastItem.jsx";
+import ToastsItem from "./Components/ToastItem.jsx";
 
-import "../../styles/toast.scss";
+import "./Toast.scss";
 
-import helmet from "../../img/img-shoei-casco.png";
-import phone from "../../img/image-phone.png";
-import ps5 from "../../img/estacion-de-recarga-ps5.png";
+import helmet from "../../../img/img-shoei-casco.png";
+import phone from "../../../img/image-phone.png";
+import ps5 from "../../../img/estacion-de-recarga-ps5.png";
 
 const Toasts = () => {
 	return (
