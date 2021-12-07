@@ -27,10 +27,3 @@ Once the code has been obtained, type the following command in your terminal:
 To contact us you can do it by this two e-mail address:
 ##### 	ismabk94@gmail.com
 ##### 	fjrf1693@hotmail.com
-
-<p align="center">
-  <img
-		width="200"
-		alt="js"
-		src="https://www.figma.com/file/3RCS9YiipPUPsyDnTEKkMH/Untitled?node-id=0%3A1">
-<p>
