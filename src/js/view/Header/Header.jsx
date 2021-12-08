@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../../../img/logo-removebg-sin bordes.png";
 import laliga from "../../../img/laliga-santander-v-removebg-preview.png";
@@ -15,9 +16,16 @@ const HeaderT = () => {
 		<nav className="navbar navbar-expand-lg navbar-light bg-first">
 			<div className="container-fluid">
 				<a className="navbar-brand d-md-flex" href="#">
-					<div className="ms-2 ">
-						<img width="100px" height="75px" src={logo} alt="" />
-					</div>
+					<Link to="/">
+						<div className="ms-2 ">
+							<img
+								width="100px"
+								height="75px"
+								src={logo}
+								alt=""
+							/>
+						</div>
+					</Link>
 				</a>
 				<button
 					className="navbar-toggler navbar-dark:"
