@@ -20,11 +20,11 @@ const Team = () => {
 					</h1>
 					<p>
 						Equipo de moteros que ha creado esta página con mucho
-						amor. En la cual podras ver las notocias mundiales mas
+						amor. En la cual podrás ver las notocias mundiales más
 						importantes del mundo del fútbol, así como la de
-						diferentes ligas. Todo actulizado. Tambíen incluimos
-						todos los resulados de la jornada actual de las liga
-						Santander, Premier league y bundesliga
+						diferentes ligas. Todo actulizado. También incluimos
+						todos los resulados de la jornada actual de las ligas
+						Santander, Premier League y Bundesliga
 					</p>
 				</div>
 				<div className="d-flex justify-content-center">
@@ -34,8 +34,8 @@ const Team = () => {
 			<div className="bg-second d-flex m-auto py-3">
 				<CardItem
 					imgCard={javi}
-					altImg={"Fracisco Javier Rodriguez"}
-					titleCard={"Fracisco Javier Rodrigue"}
+					altImg={"Fracisco Javier Rodríguez"}
+					titleCard={"Fracisco Javier Rodríguez"}
 					bodyCard={
 						"Ingeniero de telecomunicaciones de la US con licencia para matar. Te mira y te revienta."
 					}></CardItem>
