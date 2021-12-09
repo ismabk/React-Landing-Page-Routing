@@ -5,7 +5,7 @@ import "bootstrap";
 
 import "./index.scss";
 
-import Home from "./view/Home/Home.jsx";
+import Layout from "./Layout.js";
 
 //render the Home with all the componets
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Layout />, document.querySelector("#app"));

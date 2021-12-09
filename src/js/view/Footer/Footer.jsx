@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../../../img/logo-removebg-sin bordes.png";
 
@@ -53,9 +54,9 @@ const Footer = () => {
 								<a className="me-3 ahover" href="#">
 									Contacto
 								</a>
-								<a className="ahover" href="#">
-									Nuestro equipo
-								</a>
+								<Link className="ahover" to="/nuestro-equipo">
+									Nuestro Equipo
+								</Link>
 							</div>
 							<div className="text-center mt-2 mb-4">
 								<i className="fab fa-facebook-f me-4 colorF socialhover"></i>
