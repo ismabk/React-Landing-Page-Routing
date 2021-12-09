@@ -46,14 +46,16 @@ const HeaderT = () => {
 								className="nav-link active c-blanco ahover"
 								aria-current="page"
 								href="#">
-								<div className=" ">
-									<img
-										width="75px"
-										height="75px"
-										src={laliga}
-										alt=""
-									/>
-								</div>
+								<Link to="/santander">
+									<div className=" ">
+										<img
+											width="75px"
+											height="75px"
+											src={laliga}
+											alt=""
+										/>
+									</div>
+								</Link>
 							</a>
 						</li>
 						<li className="nav-item mx-1">
