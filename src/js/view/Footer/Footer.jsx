@@ -51,9 +51,9 @@ const Footer = () => {
 								<a className="me-3 ahover" href="#">
 									Politica de cookies
 								</a>
-								<a className="me-3 ahover" href="#">
+								<Link className="ahover me-3" to="/contact">
 									Contacto
-								</a>
+								</Link>
 								<Link className="ahover" to="/nuestro-equipo">
 									Nuestro Equipo
 								</Link>
